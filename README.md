@@ -2,7 +2,53 @@
 <html>
     <head>
         <title>Payment form</title>
-        <link rel="stylesheet" href="/storage/62FE-9A3C/HTML/Payment Form.css" type="text/css" />
+        <style>
+* {
+   box-sizing: border-box ;
+}
+body {
+   font-family: Verdana;
+   margin: 15px 30px;
+   padding: 8px;
+}
+.container {
+   background-color: #00FFCFFF;
+   padding: 5px 20px 15px 20px;
+   border: 1px solid #9E00FF5C;
+   border-radius: 4px;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="date"], 
+select,
+textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #FF00D1FF;
+   border-radius: 5px;
+   margin: 10px;
+}
+fieldset {
+   background-color: #1BFFF7;
+   border: 1px solid #FF8E00FF;
+   
+}
+.main-heading {
+   text-align: center;
+}
+input[type="submit"] {
+   color: white;
+   background-color: #0049FFD2;
+   padding:12px 20px ;
+   border: none;
+   border-radius: 4px;
+}
+input[type="submit"]:hover {
+   background-color: #B768F7;
+}
+     </style>
     </head>
     <body>
     	<div class="container">
